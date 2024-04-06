@@ -1,0 +1,42 @@
+.crear-logro-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.crear-logro-form h2 {
+    text-align: center;
+}
+
+.crear-logro-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.crear-logro-form label {
+    margin-bottom: 5px;
+}
+
+.crear-logro-form input[type="text"],
+.crear-logro-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.crear-logro-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.crear-logro-form button:hover {
+    background-color: #0056b3;
+}

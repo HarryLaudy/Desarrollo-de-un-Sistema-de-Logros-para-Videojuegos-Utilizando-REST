@@ -1,0 +1,56 @@
+.logros-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logros-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.logros-container form {
+    margin-bottom: 20px;
+}
+
+.logros-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.logros-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logros-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logros-container button:hover {
+    background-color: #0056b3;
+}
+
+.logros-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logros-container li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logros-container form:last-child {
+    margin-bottom: 0;
+}
